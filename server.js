@@ -8,6 +8,7 @@ cors_proxy
     requireHeader: ['origin'],
     removeHeaders: [
     'origin',     
+    'referer', 
     // Strip Heroku-specific headers
     'x-heroku-queue-wait-time',
     'x-heroku-queue-depth',
