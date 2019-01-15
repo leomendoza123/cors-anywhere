@@ -1,7 +1,7 @@
 var host = process.env.HOST || '0.0.0.0'
 var port = process.env.PORT || 80
 
-var cors_proxy = require('cors-anywhere')
+var cors_proxy = require('./lib/cors-anywhere')
 cors_proxy
   .createServer({
     originWhitelist: [], // Allow all origins
